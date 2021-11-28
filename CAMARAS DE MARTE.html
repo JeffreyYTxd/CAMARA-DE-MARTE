@@ -1,0 +1,75 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Mi primer proyecto con Javascript</title>
+  </head>
+  <body>
+    <style>
+      @import url('https://fonts.googleapis.com/css2?family=Merriweather:wght@300&display=swap');
+      body {
+        color: #000000;
+        background-image: url('https://www.elagoradiario.com/wp-content/uploads/2020/10/marte.jpg');
+      }
+
+      h1 {
+        color: #fff;
+        font-weight: bold;
+      }
+
+      p {
+        color: #fff;
+        margin-left: 2rem;
+      }
+
+      .container {
+        padding: 2rem;
+      }
+
+      .content {
+        /* display: flex;
+        flex-direction: row;
+        justify-content: space-between; */
+      }
+    </style>
+
+    <div class="container">
+      <h1>Directo de las camaras de Marte</h1>
+
+      <div class="content">
+        <iframe
+          width="560"
+          height="315"
+          src="https://www.youtube.com/embed/yt0Y75VohA4"
+          title="YouTube video player"
+          frameborder="0"
+          allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture"
+          allowfullscreen
+        ></iframe>
+
+        <p>
+          Marte es el cuarto planeta en orden de distancia al Sol y el segundo
+          más pequeño del sistema solar, después de Mercurio. Recibió su nombre
+          en homenaje al dios de la guerra de la mitología romana (Ares en la
+          mitología griega), y también es conocido como «el planeta rojo»3​4​
+          debido a la apariencia rojiza5​ que le confiere el óxido de hierro
+          predominante en su superficie. Marte es el planeta interior más
+          alejado del Sol. Es un planeta telúrico con una atmósfera delgada de
+          dióxido de carbono, y tiene dos satélites pequeños y de forma
+          irregular, Fobos y Deimos (hijos del dios griego), que podrían ser
+          asteroides capturados6​7​ similares al asteroide troyano (5261)
+          Eureka. Sus características superficiales recuerdan tanto a los
+          cráteres de la Luna como a los valles, desiertos y casquetes polares
+          de la Tierra.
+        </p>
+      </div>
+      <br />
+
+      <div class="hora"></div>
+    </div>
+
+    <script src="./index.js"></script>
+  </body>
+</html>
